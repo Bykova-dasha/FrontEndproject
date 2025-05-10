@@ -4,8 +4,6 @@ function App() {
   return (
       <div className="container py-4">
         <h1 className="text-center mb-4">Star Wars Explorer</h1>
-
-        {/* Фільтри */}
         <div className="row mb-4">
           <div className="col-md-4">
             <input type="text" className="form-control" placeholder="Пошук персонажа..." />
@@ -22,8 +20,6 @@ function App() {
             <button className="btn btn-primary">Застосувати фільтри</button>
           </div>
         </div>
-
-        {/* Карточки */}
         <div className="row">
           <div className="col-md-4 mb-4">
             <div className="card h-100">
@@ -35,11 +31,7 @@ function App() {
               </div>
             </div>
           </div>
-
-          {/* Інші карточки можна дублювати */}
         </div>
-
-        {/* Пагінація */}
         <nav className="d-flex justify-content-center mt-4">
           <ul className="pagination">
             <li className="page-item disabled"><a className="page-link" href="#">Назад</a></li>
